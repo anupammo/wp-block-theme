@@ -1,0 +1,75 @@
+{
+    "version": 2,
+    "settings": {
+      "blocks": {
+        "core/site-info": {}
+      },
+      "color": {
+        "palette": [
+          { "name": "Primary Blue", "slug": "primary-blue", "color": "#0057B7" },
+          { "name": "Accent Yellow", "slug": "accent-yellow", "color": "#FFCC00" },
+          { "name": "Neutral Dark", "slug": "neutral-dark", "color": "#1E1E1E" },
+          { "name": "Light Background", "slug": "light-bg", "color": "#F5F5F5" }
+        ],
+        "gradients": [
+          {
+            "name": "Warm Sunset",
+            "slug": "warm-sunset",
+            "gradient": "linear-gradient(135deg, #FF6B6B, #FFD93D)"
+          }
+        ]
+      },
+      "typography": {
+        "fontSizes": [
+          { "name": "Small", "slug": "small", "size": "14px" },
+          { "name": "Medium", "slug": "medium", "size": "18px" },
+          { "name": "Large", "slug": "large", "size": "24px" },
+          { "name": "X-Large", "slug": "x-large", "size": "32px" }
+        ],
+        "fontFamilies": [
+          {
+            "name": "Sans-serif",
+            "slug": "sans-serif",
+            "fontFamily": "\"Inter\", sans-serif"
+          },
+          {
+            "name": "Serif",
+            "slug": "serif",
+            "fontFamily": "\"Merriweather\", serif"
+          },
+          {
+            "name": "Monospace",
+            "slug": "monospace",
+            "fontFamily": "\"Courier New\", monospace"
+          }
+        ]
+      },
+      "layout": {
+        "wideSize": "1200px",
+        "contentSize": "800px",
+        "spacing": {
+          "padding": "20px",
+          "margin": "16px"
+        }
+      },
+      "spacing": {
+        "blockGap": "24px"
+      }
+    },
+    "styles": {
+      "color": {
+        "background": "#F5F5F5",
+        "text": "#1E1E1E"
+      },
+      "typography": {
+        "fontFamily": "\"Inter\", sans-serif",
+        "lineHeight": "1.6",
+        "fontSize": "18px"
+      },
+      "layout": {
+        "contentSize": "800px",
+        "wideSize": "1200px"
+      }
+    }
+  }
+  

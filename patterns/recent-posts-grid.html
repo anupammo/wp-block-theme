@@ -1,0 +1,19 @@
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}}} -->
+<div class="wp-block-group alignwide">
+    <!-- wp:heading {"level":2,"textAlign":"center"} -->
+    <h2 class="has-text-align-center">Latest Posts</h2>
+    <!-- /wp:heading -->
+    <!-- wp:query {"query":{"perPage":6,"postType":"post","order":"desc","orderBy":"date"},"displayLayout":{"type":"grid","columns":3}} -->
+    <div class="wp-block-query">
+      <!-- wp:post-template -->
+      <article class="wp-block-post">
+        <!-- wp:post-featured-image {"isLink":true} /-->
+        <!-- wp:post-title {"isLink":true} /-->
+        <!-- wp:post-excerpt {"moreText":"Read More"} /-->
+      </article>
+      <!-- /wp:post-template -->
+    </div>
+    <!-- /wp:query -->
+  </div>
+  <!-- /wp:group -->
+  

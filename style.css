@@ -1,0 +1,109 @@
+/*
+ Theme Name: Your Block Theme
+ Theme URI: https://example.com/your-block-theme
+ Author: Your Name
+ Author URI: https://example.com
+ Description: A fully featured, modern WordPress Block Theme designed for Full Site Editing. Embracing interactive design, refined typography, and a carefully chosen color palette.
+ Version: 1.0.0
+ License: GNU General Public License v2 or later
+ License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ Tags: full-site editing, block theme, interactive, modern, responsive, design
+ Text Domain: your-block-theme
+*/
+
+/* ------------------------------------------------------------------------- */
+/* Global Styles & CSS Reset
+/* ------------------------------------------------------------------------- */
+
+/* Remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base body styles */
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1E1E1E;
+    background-color: #F5F5F5;
+  }
+  
+  /* Utility classes */
+  .alignwide {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* ------------------------------------------------------------------------- */
+  /* Header Styles
+  /* ------------------------------------------------------------------------- */
+  .site-header {
+    border-bottom: 1px solid #dddddd;
+    padding: 20px;
+  }
+  
+  /* Logo and site title */
+  .wp-block-site-logo,
+  .wp-block-site-title {
+    vertical-align: middle;
+  }
+  
+  /* ------------------------------------------------------------------------- */
+  /* Footer Styles
+  /* ------------------------------------------------------------------------- */
+  .site-footer {
+    border-top: 1px solid #dddddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* ------------------------------------------------------------------------- */
+  /* Block & Component Overrides
+  /* ------------------------------------------------------------------------- */
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Links */
+  a {
+    color: #0057B7;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .wp-block-button__link {
+    background-color: #0057B7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  /* ------------------------------------------------------------------------- */
+  /* Responsive Styles
+  /* ------------------------------------------------------------------------- */
+  @media screen and (max-width: 768px) {
+    .wp-block-columns {
+      flex-direction: column;
+    }
+  }
+  

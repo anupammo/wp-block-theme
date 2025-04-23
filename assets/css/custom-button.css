@@ -1,0 +1,15 @@
+/* Custom Block Style for Buttons */
+.wp-block-button.is-style-custom-button {
+    background-color: #FFCC00; /* Accent Yellow */
+    color: #1E1E1E;            /* Neutral Dark for contrasting text */
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover state for visual feedback */
+  .wp-block-button.is-style-custom-button:hover {
+    background-color: #e6b800;
+    transform: translateY(-2px);
+  }
+  
